@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.pngitem.com/pimgs/m/77-775985_mmmkay-i-guess-hd-png-download.png">
+    <title>Guess The Number</title>
+</head>
+<body>
+    <div class="container">
+        <div id="initialBoard">
+            <div id="gameStartView">
+                <p>Guess The Number (1 - 100)</p>
+                <img src="https://i.pinimg.com/originals/72/3d/0a/723d0af616b1fe7d5c7e56a3532be3cd.png" alt=""height="230">
+                <button type="button" id="playgame">Play Game</button>
+            </div>
+        </div>
+
+        <div id="mainBoard">
+            <div id="gameBoard">
+                <p id="choose"></p>
+                <p>Enter Your Guess</p>
+                <input type="text" id="userValue" name="userValue" placeholder="guess your number....">
+                <button type="button" id="guess">Guess</button>
+                <p>Number Of Attempts</p>
+                <span id="attempts">0</span>
+                <p>Previous Guess</p>
+                <span id="allGuess">0</span>
+                <p id="newgame">Refresh To Play Again😋</p>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

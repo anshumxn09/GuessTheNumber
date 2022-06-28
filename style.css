@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://64.media.tumblr.com/17c959d20b8657d699efeea44760ab02/tumblr_petzq2fidq1uzwgsuo1_400.gifv');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+}
+
+#gameStartView{
+    /* width: 400px;
+    height: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#gameStartView >  button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid navy;
+    background-color: navy;
+    color: white;
+}
+#gameStartView > p{
+    color: navy;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+#mainBoard{
+    display: none;
+}
+#gameBoard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+#gameBoard > p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 10px;
+    color: navy;
+}
+#gameBoard > input{
+    margin: 8px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid navy;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+}
+#gameBoard > span{
+    padding: 5px;
+    font-size: 18px;
+
+}
+
+#gameBoard > #guess{
+    padding: 7px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid navy;
+    background-color: navy;
+    color: white;
+    font-size: 16px;
+}
+
+#newgame{
+    display: none;
+}
